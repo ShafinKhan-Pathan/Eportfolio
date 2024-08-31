@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6, span {
     margin: 0 auto;
 }
 .section__nav--logo{
-    height: 30px;
+    height: 150px;
 }
 .section__nav--ul{
     display: flex;
@@ -231,9 +231,13 @@ li{
     box-shadow: 0 20px 80px rgba(0, 0, 0, 0.50);
     border-radius: 20px;
     overflow: hidden;
+    position: relative;
+    margin-bottom: 50px;
+    
+
 }
-.project__wrapper:before{
-    content:h ;
+.project__wrapper:before {
+    content:"" ;
     position: absolute;
     top: 0;
     left: 0;
@@ -241,8 +245,54 @@ li{
     width: 100%;
     background-color: #1c1d25;
     opacity: 0;
-    transition: opacity 400ms ease;
+    transition: opacity 450ms ease;
+    z-index: 2;
 }
 .project:hover .project__wrapper:before{
-    opacity: 0.5;
+    opacity: 0.8;
+}
+.project:hover .project__image{
+    transform: scale(1.25);
+    filter: blur(5px);
+}
+.project__list{
+    padding: 40px;
+}
+.project_description{
+    position: absolute;
+    top:50%;
+    left: 90px;
+    max-width: 550px;
+    color: white;
+    z-index: 3;
+    opacity: 0;
+    transition: transform 450ms, opacity 500ms;
+}
+
+.project__description--link{
+    text-decoration: none;
+    color: white;
+}
+.project__description--title{
+    font-size:24px; 
+    padding: 8px 0; 
+}
+.project__description--subtitle{ 
+    padding: 8px 0; 
+}
+.project__description--para{
+    font-size: 10px;
+    
+    margin-bottom: 10px;
+}
+.project__description--link{
+    font-size: 16px;
+    padding: 8px;
+}
+.project:hover .project_description {
+    opacity: 1;
+    transform: translateY(-50%);
+}
+.project:last-child{
+    margin-bottom: 10px;
 }
