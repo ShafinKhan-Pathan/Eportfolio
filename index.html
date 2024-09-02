@@ -10,214 +10,268 @@
 </head>
 
 <body>
-    <section class="about-me">
-        <nav class="nav">
-            <img class="section__nav--logo" src="./assets/Shafin khan.png" alt="">
-            <ul class="section__nav--ul">
-                <li class="section__nav--li nav__li--hover">Projects</li>
-                <li class="section__nav--li nav__li--hover">Languages</li>
-                <li class="section__nav--li nav__li--button">Contact</li>
+    <section id="about-me">
+        <nav>
+            <!-- <div class="personal__logo">SHAFIN KHAN</div>
+            <a href="#"><span class="about-me__logo--modifier">SHAFIN KHAN</span></a>
+             <ul class="section__nav--ul">
+                <li class="nav__link">
+                <a class="nav__link--anchor nav__li--hover" href="#languages">Languages</a>
+                </li>
+                <li class="nav__link">
+                    <a class="nav__link--anchor nav__li--hover" href="#projects">Projects</a>
+                    </li>
+                <li class="nav__link nav__li--button">Contact</li>
+            </ul> -->
+            <div class="personal__logo">SHAFIN KHAN</div>
+            <ul class="nav__link--list">
+                <li class="nav__link">
+                    <a href="#languages" class="
+            nav__link--anchor
+            link__hover-effect
+            link__hover-effect--black
+          ">Languages</a>
+                </li>
+                <li class="nav__link">
+                    <a href="#projects" class="
+            nav__link--anchor
+            link__hover-effect
+            link__hover-effect--black
+          ">Projects</a>
+                </li>
+                <li class="nav__link">
+                    <a href="mailto:email@email.com" class="
+            nav__link--anchor
+            nav__link--anchor-primary
+          ">Contact</a>
+                </li>
             </ul>
         </nav>
-    </section>
-    <header>
-        <section id="about_me">
-            <div class="flex flex-1">
-                <div class="row">
+        <div class="flex flex-1">
+            <div class="about-me__info row">
+                <div class="about-me__info--container">
                     <figure class="about-me__figure_image"><img class="about_me--myimage" src="./assets/ProfileDark.png"
                             alt="">
                     </figure>
-                    <div>
-                        <h1 class="about-me__title">Hey ! I'm <span class="about-me__span--modifier"> Shafin Khan
-                            </span>✌</h1>
-                        <p class="about-me__para--modifier">I'm a<span class="description__span--modifier"> Junior
-                                Frontend Software Developer</span> with a strong passion for building responsive and
-                            performant web applications with the great user experience that positively impacts the world
-                        </p>
-                        <div class="about-me__social--links">
-                            <a class="about-me__social--links" href="#">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a class="about-me__social--links" href="#">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="" class="about-me__social--links" target="_blank">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="" class="about-me__social--links" target="_blank">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </div>
+                    <h1 class="about-me__title">Hey ! I'm <span class="about-me__span--modifier"> Shafin Khan
+                        </span><span class="wavvy">✌</span></h1>
+                    <p class="about-me__para--modifier">I'm a<span class="description__span--modifier"> Junior
+                            Frontend Software Developer</span> with a strong passion for building responsive and
+                        performant web applications with the great user experience that positively impacts the world
+                    </p>
+                    <div class="about-me__social--links">
+                        <a class="about-me__social--link" target="_blank"
+                            href="https://www.linkedin.com/in/shafin-khan-pathan/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="about-me__social--link" target="_blank" href="https://github.com/ShafinKhan-Pathan">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:kshafin575@gmail.com" class="about-me__social--link" target="_blank">
+                            <i class="far fa-envelope"></i>
+                        </a>
+                        <a href="./assets/Shafin_Pathan_Resume.pdf" class="about-me__social--link" target="_blank">
+                            <i class="fas fa-file-pdf"></i>
+                        </a>
                     </div>
-                    <div>
-                        <figure class="about-me__figure_image">
-                            <img src="./assets/OrganizeResume.svg" alt="">
+                </div>
+                <figure class="about-me__undrawimage">
+                    <img class="about-me__undrawimage--modifier" src="./assets/OrganizeResume.svg" alt="">
+                </figure>
+
+            </div>
+        </div>
+    </section>
+    <section id="languages">
+        <div class="container">
+            <div class="row">
+                <h1 class="section__title"><span class="about-me__span--modifier">Client-Side Development
+                        Skills</span></h1>
+                <div class="language__list">
+                    <div class="language">
+                        <figure class="language__img--wrapper">
+                            <img class="language__img" src="/assets/html.png" alt="">
                         </figure>
+                        <span class="language_name">HTML</span>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section class="languages">
-            <div class="container">
-                <div class="row">
-                    <h1 class="section__title"><span class="about-me__span--modifier">Client-Side Development
-                            Skills</span></h1>
-                    <div class="language__list">
-                        <div class="language">
-                            <figure class="language__img--wrapper">
-                                <img class="language__img" src="/assets/html.png" alt="">
-                            </figure>
-                            <span class="language_name">HTML</span>
-                        </div>
-                        <div class="language">
-                            <figure class="language__img--wrapper">
-                                <img class="language__img" src="/assets/css.png" alt="">
-                            </figure>
-                            <span class="language_name">CSS</span>
-                        </div>
-                        <div class="language">
-                            <figure class="language__img--wrapper">
-                                <img class="language__img" src="/assets/js1.png" alt="">
-                            </figure>
-                            <span class="language_name">JavaScript</span>
-                        </div>
-                        <div class="language">
-                            <figure class="language__img--wrapper">
-                                <img class="language__img" src="/assets/react.png" alt="">
-                            </figure>
-                            <span class="language_name">React</span>
-                        </div>
+                    <div class="language">
+                        <figure class="language__img--wrapper">
+                            <img class="language__img" src="/assets/css.png" alt="">
+                        </figure>
+                        <span class="language_name">CSS</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language__img--wrapper">
+                            <img class="language__img" src="/assets/js1.png" alt="">
+                        </figure>
+                        <span class="language_name">JavaScript</span>
+                    </div>
+                    <div class="language">
+                        <figure class="language__img--wrapper">
+                            <img class="language__img" src="/assets/react.png" alt="">
+                        </figure>
+                        <span class="language_name">React</span>
+                    </div>
 
-                        <div class="row">
-                            <h1 class="section__title"><span class="about-me__span--modifier">Server-Side Development
-                                    Skills</h1></span>
-                            <div class="language__list">
-                                <div class="languagebackend">
-                                    <figure class="language__img--wrapper">
-                                        <img class="language__img" src="/assets/python.png" alt="">
-                                    </figure>
-                                    <span class="backend_language_name">Python</span>
-                                </div>
-                                <div class="languagebackend">
-                                    <figure class="language__img--wrapper">
-                                        <img class="language__img" src="/assets/postgresql.png" alt="">
-                                    </figure>
-                                    <span class="backend_language_name">PostgreSQL</span>
-                                </div>
+                    <div class="row">
+                        <h1 class="section__title"><span class="about-me__span--modifier">Server-Side Development
+                                Skills</h1></span>
+                        <div class="language__list">
+                            <div class="languagebackend">
+                                <figure class="language__img--wrapper">
+                                    <img class="language__img" src="/assets/python.png" alt="">
+                                </figure>
+                                <span class="backend_language_name">Python</span>
+                            </div>
+                            <div class="languagebackend">
+                                <figure class="language__img--wrapper">
+                                    <img class="language__img" src="/assets/postgresql.png" alt="">
+                                </figure>
+                                <span class="backend_language_name">PostgreSQL</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="projects">
-            <div class="container">
-                <div class="row">
-                    <h1 class="section__title">Here are some of my <span
-                            class="about-me__span--modifier">projects</span></h1>
-                    <ul class="project__list">
-                        <li class="project">
-                            <div class="project__wrapper">
-                                <img src="/assets/FullScreenHome.png" class="project__image" alt="">
-                                <div class="project_description">
-                                    <h3 class="project__description--title"><span
-                                            class="about-me__span--modifier">RealEState Website</span></h3>
-                                    <h5 class="project__description--subtitle"><span
-                                            class="about-me__span--modifier">Technologies : </span>HTML, CSS, Javascript
-                                        & Python</h5>
-                                    <h5 class="project__description--subtitle"><span
-                                            class="about-me__span--modifier">Framework & Database : </span>Django &
-                                        PostgreSQL</h5>
-                                        <h5 class="project__description--subtitle"><span
-                                            class="about-me__span--modifier">Details : </span></h5>
-                                    <p class="project__description--para">
-                                        Created a dynamic property showcase website powered by a PostgreSQL database.
-                                        Designed to cater to a business owner's needs, the platform allows users to
-                                        seamlessly explore and filter properties based on criteria such as price,
-                                        bedrooms, bathrooms, and location.
-                                    </p>
-                                    <p class="project__description--para">
-                                        The site's user-friendly interface incorporates Google and Facebook login
-                                        options, while the customized admin controls enhance efficient platform
-                                        management.Detailed property pages provide comprehensive information, while
-                                        secure features prevent redundancy and ensure data accuracy.
-                                    </p>
-                                    <p class="project__description--para">
-                                        This project not only prioritizes a smooth user experience but also facilitates
-                                        effective communication between users and the site admin, offering a complete
-                                        and secure property browsing solution.
-                                    </p>
-                                    <div class="project__description--links">
-                                        <a href="https://github.com/ShafinKhan-Pathan/RealEstate-project"
-                                            target="_blank" class="project__description--link">
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                        <a href="#" class="project__description--link">
-                                            <i class="fas fa-link"></i>
-                                        </a>
-                                    </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <h1 class="section__title">Here are some of my <span class="about-me__span--modifier">projects</span>
+                </h1>
+                <ul class="project__list">
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="/assets/FullScreenHome.png" class="project__image" alt="">
+                            <div class="project_description">
+                                <h3 class="project__description--title"><span
+                                        class="about-me__span--modifier">RealEState Website</span></h3>
+                                <h5 class="project__description--subtitle"><span
+                                        class="about-me__span--modifier">Technologies : </span>HTML, CSS, Javascript
+                                    & Python</h5>
+                                <h5 class="project__description--subtitle"><span
+                                        class="about-me__span--modifier">Framework & Database : </span>Django &
+                                    PostgreSQL</h5>
+                                <h5 class="project__span--modifier"><span class="about-me__span--modifier">Details :
+                                    </span></h5>
+                                <p class="project__description--para">
+                                    Created a dynamic property showcase website powered by a PostgreSQL database.
+                                    Designed to cater to a business owner's needs, the platform allows users to
+                                    seamlessly explore and filter properties based on criteria such as price,
+                                    bedrooms, bathrooms, and location.
+                                </p>
+                                <p class="project__description--para">
+                                    The site's user-friendly interface incorporates Google and Facebook login
+                                    options, while the customized admin controls enhance efficient platform
+                                    management.Detailed property pages provide comprehensive information, while
+                                    secure features prevent redundancy and ensure data accuracy.
+                                </p>
+                                <p class="project__description--para">
+                                    This project not only prioritizes a smooth user experience but also facilitates
+                                    effective communication between users and the site admin, offering a complete
+                                    and secure property browsing solution.
+                                </p>
+                                <div class="project__description--links">
+                                    <a href="https://github.com/ShafinKhan-Pathan/RealEstate-project" target="_blank"
+                                        class="project__description--link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="project__description--link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
                                 </div>
-
                             </div>
 
-                        </li>
-                        <li class="project">
-                            <div class="project__wrapper">
-                                <img src="/assets/CarZone.png" class="project__image" alt="">
-                                <div class="project_description">
-                                    <h3 class="project__description--title"><span class="about-me__span--modifier">Car
-                                            Selling Website</span></h3>
-                                    <h5 class="project__description--subtitle"><span
-                                            class="about-me__span--modifier">Technologies : </span>HTML, CSS, Javascript
-                                        & Python</h5>
-                                    <h5 class="project__description--subtitle"><span
-                                            class="about-me__span--modifier">Framework & Database : </span>Django &
-                                        PostgreSQL</h5>
-                                        <h5 class="project__description--subtitle"><span
-                                            class="about-me__span--modifier">Details : </span></h5>
-                                    <p class="project__description--para">
+                        </div>
 
-                                        This website was developed for business owners to sell their used cars to
-                                        customers.
-                                        Who Wants To List His Cars In His Website And Allows The User To Come To The
-                                        Site
-                                        Browse Through All Of His Latest Selling Cars And Featured Cars
-                                        Search And Filter The Car By Model Or Price And Make Some Inquiry About
-                                        His Cars That Are Out For The Sale.
-                                    </p>
-                                    <h5 class="project__description--subtitle"><span
-                                        class="about-me__span--modifier">Functionalities : </span></h5>
-                                    <p class="project__description--para">
-                                        
-                                        User Authentication , Login With Facebook And Google,
-                                        Search Functionality, Django Pagination And Django Messages,
-                                        Sending Emails, Database Dump data And Load data, Deploy on Heroku
-                                        Server.
-                                    </p>
-                                   
-                                    <div class="project__description--links">
-                                        <a href="https://github.com/ShafinKhan-Pathan/RealEstate-project"
-                                            target="_blank" class="project__description--link">
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                        <a href="#" class="project__description--link">
-                                            <i class="fas fa-link"></i>
-                                        </a>
-                                    </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="/assets/CarZone.png" class="project__image" alt="">
+                            <div class="project_description">
+                                <h3 class="project__description--title"><span class="about-me__span--modifier">Car
+                                        Selling Website</span></h3>
+                                <h5 class="project__description--subtitle"><span
+                                        class="about-me__span--modifier">Technologies : </span>HTML, CSS, Javascript
+                                    & Python</h5>
+                                <h5 class="project__description--subtitle"><span
+                                        class="about-me__span--modifier">Framework & Database : </span>Django &
+                                    PostgreSQL</h5>
+                                <h5 class="project__description--subtitle"><span class="project__span--modifier">Details
+                                        : </span></h5>
+                                <p class="project__description--para">
+
+                                    This website was developed for business owners to sell their used cars to
+                                    customers.
+                                    Who Wants To List His Cars In His Website And Allows The User To Come To The
+                                    Site
+                                    Browse Through All Of His Latest Selling Cars And Featured Cars
+                                    Search And Filter The Car By Model Or Price And Make Some Inquiry About
+                                    His Cars That Are Out For The Sale.
+                                </p>
+                                <h5 class="project__description--subtitle"><span
+                                        class="project__span--modifier">Functionalities : </span></h5>
+                                <p class="project__description--para">
+
+                                    User Authentication , Login With Facebook And Google,
+                                    Search Functionality, Django Pagination And Django Messages,
+                                    Sending Emails, Database Dump data And Load data, Deploy on Heroku
+                                    Server.
+                                </p>
+
+                                <div class="project__description--links">
+                                    <a href="https://github.com/ShafinKhan-Pathan/RealEstate-project" target="_blank"
+                                        class="project__description--link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="project__description--link">
+                                        <i class="fas fa-link"></i>
+                                    </a>
                                 </div>
-
                             </div>
 
-                        </li>
+                        </div>
 
-                    </ul>
+                    </li>
 
-                </div>
+                </ul>
+
             </div>
-        </section>
+        </div>
+    </section>
 
-    </header>
+    <footer>
+        <div class="row footer__row">
+            <a href="#">
+                <figure class="footer__figure">
+                    <img class="footer__logo--img" src="./assets/image1.png" alt="">
+                </figure>
 
+            </a>
+            <div class="footer__social--lists">
+                <a href="https://github.com/ShafinKhan-Pathan"
+                    class="footer__social--link footer__hover--effect footer__hover-effect--white" target="_blank">
+                    Github
+                </a>
+                <a href="https://www.linkedin.com/in/shafin-khan-pathan/"
+                    class="footer__social--link footer__hover--effect footer__hover-effect--white" target="_blank">
+                    Linkedin
+                </a>
+                <a href="mailto:kshafin575@gmail.com"
+                    class="footer__social--link footer__hover--effect footer__hover-effect--white" target="_blank">
+                    Email
+                </a>
+                <a href="./assets/Shafin_Pathan_Resume.pdf"
+                    class="footer__social--link footer__hover--effect footer__hover-effect--white" target="_blank">
+                    Resume
+                </a>
+
+            </div>
+            <p class="footer__para">Copyright © 2024 Shafin Khan.</p>
+        </div>
+
+    </footer>
 </body>
 
 </html>
