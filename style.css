@@ -486,7 +486,8 @@ footer {
 .footer__logo--img {
     height: 40%;
     width: 100%;
-    max-width: 500px;
+    max-width: 200px;
+    filter: invert(1);
 }
 
 .footer__hover--effect:after {
